@@ -6,6 +6,8 @@ class App < Sinatra::Base
  "My Home town St.Louis"
  end
  get '/about' do 
- "About my Home town St.Louis has a very exciting place called the arch "
+ "About my Home town St.Louis has a very exciting place called the arch"
  end
+  get '/the/arch'
+  "It is called the gateway arch"
  end
