@@ -3,13 +3,9 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
  get '/' do 
+ "My Home town St.Louis"
  end
-
-# get '/' do 
-#   "Avocados and bok choy are the best"
-# end
-# get '/nutritious' do
-# "lots of fiber"
-
-# end
-# end
+ get '/about' do 
+ "About my Home town St.Louis"
+ end
+ end
