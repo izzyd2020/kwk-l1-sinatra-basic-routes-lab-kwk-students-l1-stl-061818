@@ -10,4 +10,5 @@ class App < Sinatra::Base
  end
   get '/the/arch'
   "It is called the gateway arch"
+end
  end
