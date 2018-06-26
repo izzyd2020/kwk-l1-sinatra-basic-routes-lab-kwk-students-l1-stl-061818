@@ -6,7 +6,7 @@ class App < Sinatra::Base
 get '/' do 
   "Avocados and bok choy are the best"
 end
- get '/' do
- "they are good"
+ get '/nutritious' do
+"lots of fiber"
  end
 end
